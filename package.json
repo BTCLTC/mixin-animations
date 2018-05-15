@@ -1,6 +1,6 @@
 {
         "name": "mixin-animations",
-        "version": "1.2.5",
+        "version": "1.5.0",
         "description": "Web animation mixins written in sass and less",
         "keywords": [
                 "animation",
@@ -13,6 +13,6 @@
         "license": "Apache-2.0",
         "repository": {
                 "type": "git",
-                "url": "git+https://github.com/hjboss/sass-animation.git"
+                "url": "git+https://github.com/hjboss/mixin-animations.git"
         }
 }

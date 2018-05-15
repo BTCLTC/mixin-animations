@@ -2,7 +2,7 @@
 
         定義常用CSS3動畫效果的@mixin庫，支持Less和SASS兩種語法
 
-        @import 'mixin-animation/sass/fadein'; // 淡入效果（僅以SASS爲例）
+        @import 'mixin-animations/sass/fadein'; // 淡入效果（僅以SASS爲例）
 
         .fadein {
                 @include fadein(1s); // 動畫時間默認值：1秒
