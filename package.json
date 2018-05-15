@@ -1,0 +1,17 @@
+{
+        "name": "sass-animation",
+        "version": "0.0.1",
+        "description": "Web animation mixins written in sass",
+        "keywords": [
+                "animation",
+                "sass",
+                "mixins"
+        ],
+        "private": false,
+        "author": "hjboss <hongjiangproject@gmail.com>",
+        "license": "Apache-2.0",
+        "repository": {
+                "type": "git",
+                "url": "git+https://github.com/hjboss/sass-animation.git"
+        }
+}
