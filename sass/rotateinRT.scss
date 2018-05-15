@@ -1,7 +1,7 @@
 @import './mixin.scss';
 /* 从右上转入 */
 @mixin rotateinRT($time: 1s) {
-        @include animation-easaout('rotateinRT', $time);
+        @include animation-easeout('rotateinRT', $time);
 }
 @-webkit-keyframes rotateinRT {
         0% { -webkit-transform-origin: right bottom; -webkit-transform: rotate(90deg); opacity: 0 }

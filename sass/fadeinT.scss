@@ -1,7 +1,7 @@
 @import './mixin.scss';
 /* 从上淡入 */
 @mixin fadeinT($time: 1s) {
-        @include animation-easaout('fadeinT', $time);
+        @include animation-easeout('fadeinT', $time);
 }
 @-webkit-keyframes fadeinT {
         0% { opacity: 0; -webkit-transform: translateY(-100px) }

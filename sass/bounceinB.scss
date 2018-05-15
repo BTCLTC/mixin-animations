@@ -1,7 +1,7 @@
 @import './mixin.scss';
 /* 从下弹入 */
 @mixin bounceinB($time: 1s) {
-        @include animation-easaout('bounceinB', $time);
+        @include animation-easeout('bounceinB', $time);
 }
 @-webkit-keyframes bounceinB {
         0% { opacity: 0; -webkit-transform: translateY(100px) }

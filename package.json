@@ -1,6 +1,6 @@
 {
-        "name": "sass-animation",
-        "version": "0.0.1",
+        "name": "mixin-animation",
+        "version": "0.0.2",
         "description": "Web animation mixins written in sass",
         "keywords": [
                 "animation",

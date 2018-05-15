@@ -1,7 +1,7 @@
 @import './mixin.scss';
 /* X轴翻入 */
 @mixin flipinX($time: 1s) {
-        @include animation-easaout('flipinX', $time);
+        @include animation-easeout('flipinX', $time);
 }
 @-webkit-keyframes flipinX {
         0% { -webkit-transform: perspective(400px) rotateX(90deg); opacity: 0 }
