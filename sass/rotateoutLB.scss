@@ -1,0 +1,21 @@
+@import './mixin.scss';
+/* 向左下转出 */
+@mixin rotateoutLB($time: 1s) {
+        @include animation-easein('rotateoutLB', $time);
+}
+@-webkit-keyframes rotateoutLB {
+        0% { -webkit-transform-origin: left bottom; -webkit-transform: rotate(0); opacity: 1 }
+        100% { -webkit-transform-origin: left bottom; -webkit-transform: rotate(90deg); opacity: 0 }
+}
+@-moz-keyframes rotateoutLB {
+        0% { -moz-transform-origin: left bottom; -moz-transform: rotate(0); opacity: 1 }
+        100% { -moz-transform-origin: left bottom; -moz-transform: rotate(90deg); opacity: 0 }
+}
+@-ms-keyframes rotateoutLB {
+        0% { -ms-transform-origin: left bottom; -ms-transform: rotate(0); opacity: 1 }
+        100% { -ms-transform-origin: left bottom; -ms-transform: rotate(90deg); opacity: 0 }
+}
+@keyframes rotateoutLB {
+        0% { transform-origin: left bottom; transform: rotate(0); opacity: 1 }
+        100% { transform-origin: left bottom; transform: rotate(90deg); opacity: 0 }
+}

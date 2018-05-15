@@ -1,0 +1,21 @@
+@import './mixin.scss';
+/* 闪烁 */
+@mixin flash($time: 1s) {
+        @include animation-ease('flash', $time);
+}
+@-webkit-keyframes flash {
+        0%, 50%, 100% { opacity: 1 }
+        25%, 75% { opacity: 0 }
+}
+@-moz-keyframes flash {
+        0%, 50%, 100% { opacity: 1 }
+        25%, 75% { opacity: 0 }
+}
+@-ms-keyframes flash {
+        0%, 50%, 100% { opacity: 1 }
+        25%, 75% { opacity: 0 }
+}
+@keyframes flash {
+        0%, 50%, 100% { opacity: 1 }
+        25%, 75% { opacity: 0 }
+}

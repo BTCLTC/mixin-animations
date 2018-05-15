@@ -1,0 +1,33 @@
+@import './mixin.scss';
+/* 摇摆 */
+@mixin swing($time: 1s) {
+        @include animation-ease('swing', $time);
+}
+@-webkit-keyframes swing {
+        20% { -webkit-transform: rotate(15deg) }
+        40% { -webkit-transform: rotate(-10deg) }
+        60% { -webkit-transform: rotate(5deg) }
+        80% { -webkit-transform: rotate(-5deg) }
+        100% { -webkit-transform: rotate(0) }
+}
+@-moz-keyframes swing {
+        20% { -moz-transform: rotate(15deg) }
+        40% { -moz-transform: rotate(-10deg) }
+        60% { -moz-transform: rotate(5deg) }
+        80% { -moz-transform: rotate(-5deg) }
+        100% { -moz-transform: rotate(0) }
+}
+@-ms-keyframes swing {
+        20% { -ms-transform: rotate(15deg) }
+        40% { -ms-transform: rotate(-10deg) }
+        60% { -ms-transform: rotate(5deg) }
+        80% { -ms-transform: rotate(-5deg) }
+        100% { -ms-transform: rotate(0) }
+}
+@keyframes swing {
+        20% { transform: rotate(15deg) }
+        40% { transform: rotate(-10deg) }
+        60% { transform: rotate(5deg) }
+        80% { transform: rotate(-5deg) }
+        100% { transform: rotate(0) }
+}

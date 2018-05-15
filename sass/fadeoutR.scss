@@ -1,0 +1,21 @@
+@import './mixin.scss';
+/* 向右淡出 */
+@mixin fadeoutR($time: 1s) {
+        @include animation-easein('fadeoutR', $time);
+}
+@-webkit-keyframes fadeoutR {
+        0% { opacity: 1; -webkit-transform: translateX(0) }
+        100% { opacity: 0; -webkit-transform: translateX(100px) }
+}
+@-moz-keyframes fadeoutR {
+        0% { opacity: 1; -moz-transform: translateX(0) }
+        100% { opacity: 0; -moz-transform: translateX(100px) }
+}
+@-ms-keyframes fadeoutR {
+        0% { opacity: 1; -ms-transform: translateX(0) }
+        100% { opacity: 0; -ms-transform: translateX(100px) }
+}
+@keyframes fadeoutR {
+        0% { opacity: 1; transform: translateX(0) }
+        100% { opacity: 0; transform: translateX(100px) }
+}

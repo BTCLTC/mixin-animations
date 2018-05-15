@@ -1,0 +1,25 @@
+@import './mixin.scss';
+/* 向右弹出 */
+@mixin bounceoutR($time: 1s) {
+        @include animation-easein('bounceoutR', $time);
+}
+@-webkit-keyframes bounceoutR {
+        0% { -webkit-transform: translateX(0) }
+        20% { opacity: 1; -webkit-transform: translateX(-20px) }
+        100% { opacity: 0; -webkit-transform: translateX(100px) }
+}
+@-moz-keyframes bounceoutR {
+        0% { -moz-transform: translateX(0) }
+        20% { opacity: 1; -moz-transform: translateX(-20px) }
+        100% { opacity: 0; -moz-transform: translateX(100px) }
+}
+@-ms-keyframes bounceoutR {
+        0% { -ms-transform: translateX(0) }
+        20% { opacity: 1; -ms-transform: translateX(-20px) }
+        100% { opacity: 0; -ms-transform: translateX(100px) }
+}
+@keyframes bounceoutR {
+        0% { transform: translateX(0) }
+        20% { opacity: 1; transform: translateX(-20px) }
+        100% { opacity: 0; transform: translateX(100px) }
+}
