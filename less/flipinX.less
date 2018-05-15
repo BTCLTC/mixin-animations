@@ -1,0 +1,29 @@
+@import './mixin.less';
+/* X轴翻入 */
+.flipinX(@time: 1s) {
+        .animation-easaout('flipinX', @time);
+}
+@-webkit-keyframes flipinX {
+        0% { -webkit-transform: perspective(400px) rotateX(90deg); opacity: 0 }
+        40% { -webkit-transform: perspective(400px) rotateX(-10deg) }
+        70% { -webkit-transform: perspective(400px) rotateX(10deg) }
+        100% { -webkit-transform: perspective(400px) rotateX(0); opacity: 1 }
+}
+@-moz-keyframes flipinX {
+        0% { -moz-transform: perspective(400px) rotateX(90deg); opacity: 0 }
+        40% { -moz-transform: perspective(400px) rotateX(-10deg) }
+        70% { -moz-transform: perspective(400px) rotateX(10deg) }
+        100% { -moz-transform: perspective(400px) rotateX(0); opacity: 1 }
+}
+@-ms-keyframes flipinX {
+        0% { -ms-transform: perspective(400px) rotateX(90deg); opacity: 0 }
+        40% { -ms-transform: perspective(400px) rotateX(-10deg) }
+        70% { -ms-transform: perspective(400px) rotateX(10deg) }
+        100% { -ms-transform: perspective(400px) rotateX(0); opacity: 1 }
+}
+@keyframes flipinX {
+        0% { transform: perspective(400px) rotateX(90deg); opacity: 0 }
+        40% { transform: perspective(400px) rotateX(-10deg) }
+        70% { transform: perspective(400px) rotateX(10deg) }
+        100% { transform: perspective(400px) rotateX(0); opacity: 1 }
+}

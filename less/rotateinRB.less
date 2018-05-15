@@ -1,0 +1,21 @@
+@import './mixin.less';
+/* 从右下转入 */
+.rotateinRB(@time: 1s) {
+        .animation-easaout('rotateinRB', @time);
+}
+@-webkit-keyframes rotateinRB {
+        0% { -webkit-transform-origin: right bottom; -webkit-transform: rotate(-90deg); opacity: 0 }
+        100% { -webkit-transform-origin: right bottom; -webkit-transform: rotate(0); opacity: 1 }
+}
+@-moz-keyframes rotateinRB {
+        0% { -moz-transform-origin: right bottom; -moz-transform: rotate(-90deg); opacity: 0 }
+        100% { -moz-transform-origin: right bottom; -moz-transform: rotate(0); opacity: 1 }
+}
+@-ms-keyframes rotateinRB {
+        0% { -ms-transform-origin: right bottom; -ms-transform: rotate(-90deg); opacity: 0 }
+        100% { -ms-transform-origin: right bottom; -ms-transform: rotate(0); opacity: 1 }
+}
+@keyframes rotateinRB {
+        0% { transform-origin: right bottom; transform: rotate(-90deg); opacity: 0 }
+        100% { transform-origin: right bottom; transform: rotate(0); opacity: 1 }
+}

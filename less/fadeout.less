@@ -1,0 +1,21 @@
+@import './mixin.less';
+/* 淡出 */
+.fadeout(@time: 1s) {
+        .animation-easein('fadeout', @time);
+}
+@-webkit-keyframes fadeout {
+        0% { opacity: 1 }
+        100% { opacity: 0 }
+}
+@-moz-keyframes fadeout {
+        0% { opacity: 1 }
+        100% { opacity: 0 }
+}
+@-ms-keyframes fadeout {
+        0% { opacity: 1 }
+        100% { opacity: 0 }
+}
+@keyframes fadeout {
+        0% { opacity: 1 }
+        100% { opacity: 0 }
+}
