@@ -1,0 +1,19 @@
+.animation(@name, @code) {
+        -webkit-animation-name: @name;
+           -moz-animation-name: @name;
+            -ms-animation-name: @name;
+                animation-name: @name;
+             -webkit-animation: @code;
+                -moz-animation: @code;
+                 -ms-animation: @code;
+                     animation: @code;
+}
+.animation-ease(@name, @time: 1s) {
+       .animation(@name, @time + ' ease')
+}
+.animation-easeout(@name, @time: 1s) {
+       .animation(@name, @time + ' ease-out backwards')
+}
+.animation-easein(@name, @time: 1s) {
+       .animation(@name, @time + ' ease-in forwards')
+}
