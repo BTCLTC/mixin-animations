@@ -1,5 +1,5 @@
 {
-        "name": "mixin-animation",
+        "name": "mixin-animations",
         "version": "1.2.5",
         "description": "Web animation mixins written in sass and less",
         "keywords": [
