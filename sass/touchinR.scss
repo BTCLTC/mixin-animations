@@ -4,18 +4,18 @@
         @include animation-easeout('touchinR', $time);
 }
 @-webkit-keyframes touchinR {
-        0% { -webkit-transform: translateX(300px) }
+        0% { -webkit-transform: translateX(400px) }
         100% { -webkit-transform: translateX(0) }
 }
 @-moz-keyframes touchinR {
-        0% { -moz-transform: translateX(300px) }
+        0% { -moz-transform: translateX(400px) }
         100% { -moz-transform: translateX(0) }
 }
 @-ms-keyframes touchinR {
-        0% { -ms-transform: translateX(300px) }
+        0% { -ms-transform: translateX(400px) }
         100% { -ms-transform: translateX(0) }
 }
 @keyframes touchinR {
-        0% { transform: translateX(300px) }
+        0% { transform: translateX(400px) }
         100% { transform: translateX(0) }
 }
