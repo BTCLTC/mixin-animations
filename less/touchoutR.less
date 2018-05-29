@@ -1,0 +1,21 @@
+@import './mixin.scss';
+/* 向右拖出 */
+.touchoutR(@time: 1s) {
+        .animation-easein('touchoutR', @time);
+}
+@-webkit-keyframes touchoutR {
+        0% { -webkit-transform: translateX(0) }
+        100% { -webkit-transform: translateX(300px) }
+}
+@-moz-keyframes touchoutR {
+        0% { -moz-transform: translateX(0) }
+        100% { -moz-transform: translateX(300px) }
+}
+@-ms-keyframes touchoutR {
+        0% { -ms-transform: translateX(0) }
+        100% { -ms-transform: translateX(300px) }
+}
+@keyframes touchoutR {
+        0% { transform: translateX(0) }
+        100% { transform: translateX(300px) }
+}

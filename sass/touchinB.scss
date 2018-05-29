@@ -1,0 +1,21 @@
+@import './mixin.scss';
+/* 从底拖入 */
+@mixin touchinB($time: 1s) {
+        @include animation-easeout('touchinB', $time);
+}
+@-webkit-keyframes touchinB {
+        0% { -webkit-transform: translateY(300px) }
+        100% { -webkit-transform: translateY(0) }
+}
+@-moz-keyframes touchinB {
+        0% { -moz-transform: translateY(300px) }
+        100% { -moz-transform: translateY(0) }
+}
+@-ms-keyframes touchinB {
+        0% { -ms-transform: translateY(300px) }
+        100% { -ms-transform: translateY(0) }
+}
+@keyframes touchinB {
+        0% { transform: translateY(300px) }
+        100% { transform: translateY(0) }
+}
