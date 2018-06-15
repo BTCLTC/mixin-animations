@@ -5,17 +5,17 @@
 }
 @-webkit-keyframes touchoutL {
         0% { -webkit-transform: translateX(0) }
-        100% { -webkit-transform: translateX(-400px) }
+        100% { -webkit-transform: translateX(-800px) }
 }
 @-moz-keyframes touchoutL {
         0% { -moz-transform: translateX(0) }
-        100% { -moz-transform: translateX(-400px) }
+        100% { -moz-transform: translateX(-800px) }
 }
 @-ms-keyframes touchoutL {
         0% { -ms-transform: translateX(0) }
-        100% { -ms-transform: translateX(-400px) }
+        100% { -ms-transform: translateX(-800px) }
 }
 @keyframes touchoutL {
         0% { transform: translateX(0) }
-        100% { transform: translateX(-400px) }
+        100% { transform: translateX(-800px) }
 }
